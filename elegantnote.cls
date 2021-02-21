@@ -36,7 +36,7 @@
 \DeclareVoidOption{geye}{\ekv{mode=geye}}
 \DeclareVoidOption{hazy}{\ekv{mode=hazy}}
 
-\DeclareStringOption[ctexfont]{chinesefont}
+\DeclareStringOption[nofont]{chinesefont}
 \DeclareVoidOption{ctexfont}{\ekv{chinesefont=ctexfont}}
 \DeclareVoidOption{founder}{\ekv{chinesefont=founder}}
 \DeclareVoidOption{nofont}{\ekv{chinesefont=nofont}}
@@ -87,7 +87,19 @@
       \newcommand*{\fangsong}{\CJKfamily{zhfs}}}{\relax}
     
     \ifdefstring{\ELEGANT@chinesefont}{nofont}{
-      \RequirePackage[UTF8,scheme=plain,fontset=none]{ctex}}{\relax}
+      \RequirePackage[UTF8,scheme=plain,fontset=none]{ctex}
+      \setCJKmainfont[BoldFont={Source Han Serif CN Heavy},ItalicFont={Source Han Serif CN Light}]{Source Han Serif CN}
+      \setCJKsansfont[BoldFont={Source Han Sans CN Heavy},ItalicFont={Source Han Sans CN Light}]{Source Han Sans CN}
+      \setCJKmainfont[BoldFont={Source Han Serif CN Heavy},ItalicFont={Source Han Serif CN Light}]{Source Han Serif CN}
+      \setCJKfamilyfont{sysong}{Source Han Serif CN}
+      \setCJKfamilyfont{syhei}{Source Han Sans CN}
+      \setCJKfamilyfont{kai}{KaiTi}
+      \setCJKfamilyfont{dengxian}{DengXian}
+      \newcommand*{\songti}{\CJKfamily{sysong}}
+      \newcommand*{\heiti}{\CJKfamily{syhei}}
+      \newcommand*{\kaishu}{\CJKfamily{kai}}
+      \newcommand*{\jp}{\CJKfamily{dengxian}}
+    }{\relax}
 
     \ifdefstring{\ELEGANT@chinesefont}{ctexfont}{
       \RequirePackage[UTF8,scheme=plain]{ctex}}{\relax}

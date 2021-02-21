@@ -1,25 +1,43 @@
 %!TEX program = xelatex
 \documentclass[cn,hazy,blue,14pt,screen]{elegantnote}
-\title{ElegantNote：一个优美的 \LaTeX{} 笔记模板}
+\title{JapaneseNote:日本語勉強中}
 
-\author{邓东升}
+\author{ティンバー・イエ}
+
 \institute{Elegant\LaTeX{} Program}
 
-\version{2.30}
+% \version{2.30}
 \date{\zhtoday}
 
 \usepackage{array}
+\usepackage{fontspec}
+\usepackage{titletoc}
+\titlecontents{section}[0mm]
+{\vspace{-2.2\baselineskip}\bfseries}
+{\normalsize{\thecontentslabel}~\hspace{.5em}} {}
+{\dotfill\contentspage[{\makebox[0pt][r]{\thecontentspage}}]}
+[\vspace{-1.1\baselineskip}]
+\dottedcontents{section}[1.16cm]{\large}{1.0em}{4pt}
+\dottedcontents{subsection}[2.00cm]{\normalsize}{2.0em}{4pt}
+
+
 
 \begin{document}
 
 \maketitle
 
+\vspace{.8in}
 \centerline{
   \includegraphics[width=0.2\textwidth]{logo-blue.png}
 }
 
+\newpage
+\tableofcontents
 
+\newpage
 \section{ElegantNote 使用说明}
+
+中国智造 {\jp あいうえおかきくけこ}
 
 新版 ElegantNote 是基于标准的 \LaTeX{} 文类 article 重新设计的，格式更加简化的笔记模板！本模板支持两种编译方式，\hologo{pdfLaTeX} 和 \hologo{XeLaTeX}，英文模式下请使用 \hologo{pdfLaTeX} 进行编译，中文模式下推荐使用 \hologo{XeLaTeX}。
 
@@ -111,7 +129,7 @@
 \noindent \textbf{注意：} 使用 \lstinline{founder} 选项或者 \lstinline{nofont} 时，必须使用 \hologo{XeLaTeX} 进行编译。
 
 \subsubsection{方正字体选项}
-由于使用 \lstinline{ctex} 宏包默认调用系统已有的字体，部分系统字体缺失严重，因此，用户希望能够使用其它字体，我们推荐使用方正字体。方正的{\songti 方正书宋}、{\heiti 方正黑体}、{\kaishu 方正楷体}、{\fangsong 方正仿宋}四款字体均可免费试用，且可用于商业用途。用户可以自行从\href{http://www.foundertype.com/}{方正字体官网}下载此四款字体，在下载的时候请\textbf{务必}注意选择 GBK 字符集，也可以使用 \href{https://www.latexstudio.net/}{\LaTeX{} 工作室}提供的\href{https://pan.baidu.com/s/1BgbQM7LoinY7m8yeP25Y7Q}{方正字体，提取码为：njy9} 进行安装。安装时，{\kaishu Win 10 用户请右键选择为全部用户安装，否则会找不到字体。}
+由于使用 \lstinline{ctex} 宏包默认调用系统已有的字体，部分系统字体缺失严重，因此，用户希望能够使用其它字体，我们推荐使用方正字体。方正的{\songti 方正书宋}、{\heiti 方正黑体}、{\kaishu 方正楷体}、{\jp 方正仿宋}四款字体均可免费试用，且可用于商业用途。用户可以自行从\href{http://www.foundertype.com/}{方正字体官网}下载此四款字体，在下载的时候请\textbf{务必}注意选择 GBK 字符集，也可以使用 \href{https://www.latexstudio.net/}{\LaTeX{} 工作室}提供的\href{https://pan.baidu.com/s/1BgbQM7LoinY7m8yeP25Y7Q}{方正字体，提取码为：njy9} 进行安装。安装时，{\kaishu Win 10 用户请右键选择为全部用户安装，否则会找不到字体。}
 
 \begin{figure}[!htb]
 \centering
