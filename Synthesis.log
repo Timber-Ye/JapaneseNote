@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2021.1.16)  21 FEB 2021 22:48
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2021.1.16)  21 FEB 2021 23:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -993,7 +993,7 @@ Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
 ) (d:/Installation/texlive/2020/texmf-dist/tex/latex/titlesec/titletoc.sty
 Package: titletoc 2019/10/16 v2.13 TOC entries
 \ttl@leftsep=\dimen339
-) (./Synthesis.aux)
+) (./newcommand.tex) (./Synthesis.aux)
 \openout1 = `Synthesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
@@ -1116,124 +1116,50 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 20.74pt on input line 35.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 20.74pt on input line 35.
- (./Synthesis.toc [2])
+ (./Synthesis.toc)
 \tf@toc=\write5
 \openout5 = `Synthesis.toc'.
 
+ [2] [3] (./sections/动词活用形.tex
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 3.
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 17.28pt on input line 4.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 14.4pt on input line 6.
+[1]) [2]
+File: ./image//star.png Graphic file (type bmp)
+<./image//star.png>
+File: ./image//donate.jpg Graphic file (type bmp)
+<./image//donate.jpg>
  [3]
-
-Package fontspec Info: Could not resolve font "DengXian/I" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: Font family 'DengXian(0)' created for font 'DengXian'
-(fontspec)             with options [Script={CJK}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"DengXian/OT:script=hani;language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"DengXian/B/OT:script=hani;language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"DengXian/BI/OT:script=hani;language=dflt;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 10.0pt on input line 80.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 83.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 8.0pt on input line 88.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 14.4pt on input line 127.
 
 
 Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
 (xeCJK)                
 (xeCJK)                Try to use `\setCJKmonofont[...]{...}' to define it.
 
-[4]
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 17.28pt on input line 62.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 14.4pt on input line 73.
- [5] [6]
-LaTeX Font Info:    Trying to load font information for T1+ntxsups on input line 124.
- (d:/Installation/texlive/2020/texmf-dist/tex/latex/newtx/t1ntxsups.fd
-File: t1ntxsups.fd 2015/01/17 v1.0
-)
-LaTeX Font Info:    Font shape `T1/ntxsups/m/n' will be
-(Font)              scaled to size 14.4pt on input line 124.
-LaTeX Font Info:    Font shape `T1/ntxsups/m/n' will be
-(Font)              scaled to size 10.0pt on input line 124.
-
-Package fontspec Info: Could not resolve font "Source Han Serif CN/I" (it
-(fontspec)             probably doesn't exist).
-
-
-Package fontspec Info: Font family 'SourceHanSerifCN(1)' created for font
-(fontspec)             'Source Han Serif CN' with options [Script={CJK}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Source Han Serif
-(fontspec)             CN/OT:script=hani;language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Source Han Serif
-(fontspec)             CN/B/OT:script=hani;language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Source Han
-(fontspec)             Serif CN/BI/OT:script=hani;language=dflt;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
-
-Package fontspec Info: Could not resolve font "Source Han Sans CN/I" (it
-(fontspec)             probably doesn't exist).
-
-
-Package fontspec Info: Font family 'SourceHanSansCN(0)' created for font
-(fontspec)             'Source Han Sans CN' with options [Script={CJK}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Source Han Sans
-(fontspec)             CN/OT:script=hani;language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Source Han Sans
-(fontspec)             CN/B/OT:script=hani;language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Source Han
-(fontspec)             Sans CN/BI/OT:script=hani;language=dflt;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
-File: ./image//founder.png Graphic file (type bmp)
-<./image//founder.png>
- [7] [8]
-LaTeX Font Info:    Font shape `T1/ntxsups/b/n' will be
-(Font)              scaled to size 17.28pt on input line 156.
- [9] [10] [11]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 14.4pt on input line 246.
- [12] [13]
-File: ./image//star.png Graphic file (type bmp)
-<./image//star.png>
-File: ./image//donate.jpg Graphic file (type bmp)
-<./image//donate.jpg>
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.0pt on input line 287.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 290.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 8.0pt on input line 295.
- [14] [15] [16] (./Synthesis.aux)
+[4] [5] [6] (./Synthesis.aux)
 Package rerunfilecheck Info: File `Synthesis.out' has not changed.
-(rerunfilecheck)             Checksum: 5AE11B5E4173F2318C57736E36631BD7;1419.
+(rerunfilecheck)             Checksum: A64D621675180128D69E79CDE78E6E4E;1054.
  ) 
 Here is how much of TeX's memory you used:
- 32794 strings out of 477220
- 666109 string characters out of 5828229
- 1258363 words of memory out of 5000000
- 51863 multiletter control sequences out of 15000+600000
- 453316 words of font info for 116 fonts, out of 8000000 for 9000
+ 32383 strings out of 477220
+ 653789 string characters out of 5828229
+ 1221363 words of memory out of 5000000
+ 51486 multiletter control sequences out of 15000+600000
+ 449965 words of font info for 90 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 120i,12n,136p,539b,2382s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 120i,12n,136p,482b,2372s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Synthesis.pdf (16 pages).
+Output written on Synthesis.pdf (9 pages).
