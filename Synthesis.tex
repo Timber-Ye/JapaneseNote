@@ -9,9 +9,13 @@
 % \version{2.30}
 \date{\zhtoday}
 
+%========================导言区==========================
 \usepackage{array}
 \usepackage{fontspec}
 \usepackage{titletoc}
+\usepackage{amssymb}
+\usepackage{multicol} %用于实现在同一页中实现不同的分栏
+
 \titlecontents{section}[0mm]
 {\vspace{-2.2\baselineskip}\bfseries}
 {\normalsize{\thecontentslabel}~\hspace{.5em}} {}
@@ -21,6 +25,7 @@
 \dottedcontents{subsection}[2.00cm]{\normalsize}{2.0em}{4pt}
 
 \input{newcommand.tex}
+%========================导言区==========================
 
 \begin{document}
 
